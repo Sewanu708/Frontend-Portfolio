@@ -31,12 +31,12 @@ function Contact() {
                 <ContactCard
                     icon={FaEnvelope}
                     title="Email"
-                    value="sewanu@example.com"
+                    value="sewanu708@gmail.com"
                 />
                 <ContactCard
                     icon={HiOutlinePhone}
                     title="Phone"
-                    value="+234 801 234 5678"
+                    value="+234 802 228 7813"
                 />
                 <ContactCard
                     icon={BsLinkedin}
@@ -47,8 +47,8 @@ function Contact() {
                 
             </div>
 
-            {/* Contact Form */}
-            <div className="max-w-4xl mx-auto bg-zinc-800 rounded-xl p-8 sm:p-12 shadow-xl">
+            
+            <div className="max-w-4xl mx-auto bg-zinc-800 rounded-xl p-4 shadow-xl">
                 <h3 className="text-2xl font-semibold mb-6 text-zinc-50">Send Me a Message</h3>
                 <Form />
             </div>

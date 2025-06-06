@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
     return (
-        <div className='w-full h-auto pt-16 pb-16 mt-4 mx-auto bg-zinc-900 text-white rounded-[5px] font-jakarta'>
+        <div className='w-full h-auto pt-16  mt-4 mx-auto bg-zinc-900 text-white rounded-[5px] font-jakarta'>
             <div className='flex flex-col justify-center items-center w-full px-4 sm:px-6'>
                 <p className='text-center font-[630] text-2xl sm:text-3xl mlg:text-4xl leading-10 sm:leading-13'>
                     Hey! I'm 👨🏾‍💻 Sewanu Isaiah. <br />
@@ -19,7 +19,7 @@ export default function Hero() {
                     <b className='italic'>Let’s build something awesome together. 🤝</b>
                 </p>
 
-                <button className='mt-6 bg-white text-zinc-900 font-semibold py-2 px-6 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out shadow-md'>
+                <button className='mt-12 mb-8  bg-white text-zinc-900 font-semibold py-2 px-6 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out shadow-md'>
                     Let’s Connect
                 </button>
             </div>

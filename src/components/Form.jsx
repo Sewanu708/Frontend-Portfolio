@@ -11,7 +11,7 @@ function Form() {
                 </div>
                 <div>
                     <label for="email" class="block mb-2 text-zinc-300">Your Email *</label>
-                    <input type="email" name="email" id="email" required placeholder="you@example.com"
+                    <input type="email" name="email" id="email" required placeholder="sewanu@example.com"
                         class="w-full px-4 py-3 bg-zinc-700 border border-zinc-600 rounded-lg text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-zinc-400" />
                 </div>
             </div>

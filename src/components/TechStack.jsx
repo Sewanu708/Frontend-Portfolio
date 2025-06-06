@@ -21,7 +21,7 @@ const techTools = [
 function TechStack() {
     return (
         <section className="w-full mt-8 px-6 md:px-12 bg-white">
-            <h2 className="text-2xl xsm:text-3xl font-bold text-zinc-800 mb-10">
+            <h2 className="text-2xl xsm:text-3xl font-bold text-zinc-800 mb-4">
                 Skills & Technologies
             </h2>
 
