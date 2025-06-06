@@ -8,7 +8,7 @@ import { HiOutlinePhone } from "react-icons/hi2";
 
 function Contact() {
     return (
-        <section className="bg-zinc-900 px-6 sm:px-12 lg:px-32 py-20 text-zinc-100 font-jakarta">
+        <section className="bg-zinc-900 px-6 sm:px-12 lg:px-32 py-20 mt-8 text-zinc-100 font-jakarta">
 
             <div className="text-center mb-16">
                 <h2 className="text-4xl sm:text-5xl font-bold text-zinc-50 tracking-wide">Let's Connect</h2>

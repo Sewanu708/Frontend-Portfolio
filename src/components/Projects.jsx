@@ -39,8 +39,8 @@ const projectData = [
 
 function Projects() {
     return (
-        <div className='mx-auto px-6 md:px-12 max-w-7xl w-full pt-16 pb-16 mt-8 font-jakarta'>
-            <h1 className='font-extrabold text-3xl text-zinc-600 text-center'>Featured Projects</h1>
+        <div className='mx-auto px-6 md:px-12 max-w-7xl w-full  mt-8 font-jakarta'>
+            <h1 className='font-extrabold text-2xl xsm:text-3xl text-zinc-900 text-start w-full'>Featured Projects</h1>
 
             <div className='mt-8 grid gap-6
                 grid-cols-1

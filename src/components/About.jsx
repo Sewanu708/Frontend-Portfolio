@@ -3,8 +3,8 @@ import me from '../assets/IMG_9729ED-removebg-preview.png'
 import { IoDocumentTextOutline } from "react-icons/io5";
 function About() {
     return (
-        <div className='w-full h-auto font-jakarta'>
-            <h1  className='font-[700] text-3xl text-zinc-600'>About</h1>
+        <div className='w-full px-6 md:px-12  h-auto font-jakarta mt-8'>
+            <h1  className='font-[700] text-2xlxsm:text-3xl text-zinc-900'>About</h1>
             <div className='py-4 flex justify-between items-center gap-8 mlg:flex-row flex-col'>
                 <div className='flex-1/4 text-zinc-400 leading-7'>
                     I’m Sewanu Isaiah, a Front-End Developer with a passion for crafting interactive and user-friendly web experiences. I specialize in HTML, CSS, tailwind JavaScript, and React.js, continuously refining my skills to build modern, responsive, and high-performance applications. I have experience working with JavaScript modules, APIs, and state management, and I’m currently deepening my knowledge of backend interactions and frontend optimizations.
