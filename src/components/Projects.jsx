@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import movie from '../assets/Home-screen.png'
 import nft from '../assets/NFT Marketplace - 1x1 Cover.png'
 import e_com from '../assets/Homepage mockup.png'
 import { SlArrowRight } from "react-icons/sl";
+import { useInView, motion } from 'framer-motion';
 
 const projectData = [
     {
@@ -38,6 +39,7 @@ const projectData = [
 ]
 
 function Projects() {
+
     return (
         <div className='mx-auto px-6 md:px-12 max-w-7xl w-full  mt-8 font-jakarta'>
             <h1 className='font-extrabold text-2xl xsm:text-3xl text-zinc-900 text-start w-full'>Featured Projects</h1>
