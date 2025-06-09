@@ -3,6 +3,7 @@ import { myContext } from '../context'
 import { Outlet } from 'react-router'
 import Header from '../components/Header'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 function Layout() {
     const { refs, onNavigate } = useContext(myContext)
@@ -11,9 +12,7 @@ function Layout() {
             
             <Header handleNavigate={onNavigate} />
             <Outlet />
-            <div ref={refs.contact}>
-                <Contact />
-            </div>
+            <Footer/>
         </div>
     )
 }

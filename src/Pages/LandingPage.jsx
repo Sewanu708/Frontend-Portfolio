@@ -6,6 +6,7 @@ import About from '../components/About'
 import Projects from "../components/Projects"
 import TechStack from "../components/TechStack"
 import { easeIn } from 'framer-motion'
+import Contact from '../components/Contact'
 function LandingPage() {
     const { refs } = useContext(myContext)
     return (
@@ -33,6 +34,9 @@ function LandingPage() {
             </div>
             <div ref={refs.skills}>
                 <TechStack />
+            </div>
+            <div ref={refs.contact}>
+                <Contact />
             </div></div>
     )
 }

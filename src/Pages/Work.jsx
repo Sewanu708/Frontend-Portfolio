@@ -1,14 +1,13 @@
-import React, { useContext } from 'react'
+import React, { useEffect } from 'react'
 import Projects from '../components/Projects'
-import { myContext } from '../context'
-
 
 function Work() {
-    const { refs } = useContext(myContext)
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
-        <div ref={refs.projects}>
-            <Projects />
-        </div>
+        <Projects />
     )
 }
 
