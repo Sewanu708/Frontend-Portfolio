@@ -1,6 +1,7 @@
 import movie from '../assets/Home-screen.png'
 import nft from '../assets/NFT Marketplace - 1x1 Cover.png'
 import e_com from '../assets/Homepage mockup.png'
+import nexcent from '../assets/Thumbnail'
 import { SlArrowRight } from "react-icons/sl";
 import { Link } from 'react-router';
 import { useLocation } from 'react-router';
@@ -10,31 +11,25 @@ const projectData = [
         imagePath: e_com,
         header: 'Ecommerce',
         label: 'E-commerce Product Page',
+        path:'/https://sewanu708.github.io/Exclusive-/'
     },
     {
         imagePath: nft,
         header: 'NFT Marketplace',
         label: 'Crypto Assets',
+        path:'https://sewanu708.github.io/NFT/'
     },
     {
         imagePath: movie,
         header: 'Movie App',
         label: 'Website - Movie App',
+        path:'https://movie-app-nmmu.vercel.app/'
     },
     {
-        imagePath: e_com,
-        header: 'Ecommerce',
-        label: 'E-commerce Product Page',
-    },
-    {
-        imagePath: nft,
-        header: 'NFT Marketplace',
-        label: 'Crypto Assets',
-    },
-    {
-        imagePath: movie,
-        header: 'Movie App',
-        label: 'Website - Movie App',
+        imagePath: nexcent,
+        header: 'Nexcent',
+        label: 'Product Landing Page',
+        path:'https://sewanu708.github.io/Nexcent/'
     },
 ]
 
@@ -55,7 +50,7 @@ function Projects() {
                 max-w-screen-lg mx-auto
             '>
                 {data.map((item, index) => (
-                    <div
+                    <Link to={item.path}
                         key={index}
                         className='rounded-lg shadow-xl p-4 cursor-pointer hover:scale-105 transform transition-transform duration-300 ease-in-out flex flex-col'
                     >
@@ -72,7 +67,7 @@ function Projects() {
                                 loading="lazy"
                             />
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
             
