@@ -54,9 +54,9 @@ export default function Hero() {
                     <b className='italic'>Let’s build something awesome together. 🤝</b>
                 </p>
 
-                <motion.button variants={buttonVariants} className='mt-12 mb-8  bg-white text-zinc-900 font-semibold py-2 px-6 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out shadow-md'>
+                <motion.a href="mailto:sewanu708.com" variants={buttonVariants} className='mt-12 mb-8  bg-white text-zinc-900 font-semibold py-2 px-6 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out shadow-md'>
                     Let’s Connect
-                </motion.button>
+                </motion.a>
             </motion.div>
         </div>
     )

@@ -1,7 +1,7 @@
 import movie from '../assets/Home-screen.png'
 import nft from '../assets/NFT Marketplace - 1x1 Cover.png'
 import e_com from '../assets/Homepage mockup.png'
-import nexcent from '../assets/Thumbnail'
+import nexcent from '../assets/Thumbnail.png'
 import { SlArrowRight } from "react-icons/sl";
 import { Link } from 'react-router';
 import { useLocation } from 'react-router';
