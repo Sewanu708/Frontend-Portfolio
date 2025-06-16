@@ -11,7 +11,7 @@ const projectData = [
         imagePath: e_com,
         header: 'Ecommerce',
         label: 'E-commerce Product Page',
-        path:'/https://sewanu708.github.io/Exclusive-/'
+        path:'https://sewanu708.github.io/Exclusive-/'
     },
     {
         imagePath: nft,
